@@ -7,8 +7,10 @@ namespace FindMaximum
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Find maximum number");
-            int max = FindMaximumFromThree.MaximumIntegerNumber(4, 4, 4);
+            int max = FindMaximumFromThree.MaximumIntegerNumber(4, 6, 4);
             Console.WriteLine("The maximum value is :" + max);
+            double maxFloat = FindMaximumFromThree.MaximumFloatNumber(4.4, 4.9, 5.2);
+            Console.WriteLine("The maximum value is :" + maxFloat);
         }
     }
 }
